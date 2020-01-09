@@ -6,11 +6,11 @@ A small code to render characters using moon emoji in shell.
 
 "柒" in [TW-Kai] font:
 
-<img src="https://rikka.7sdre.am/files/4f660184-e5e7-4b4c-a037-8c1d656dfe86.png" height="480">
+<img src="https://rikka.7sdre.am/files/4f660184-e5e7-4b4c-a037-8c1d656dfe86.png" height="480" width="auto">
 
 "7sDream" in [Fura Code](merge to one image using imagemagick):
 
-<img src="https://rikka.7sdre.am/files/140493ef-9484-42f7-9736-5dd6354d04db.png" height="480">
+<img src="https://rikka.7sdre.am/files/140493ef-9484-42f7-9736-5dd6354d04db.png" height="480" width="auto">
 
 ## Usage
 
