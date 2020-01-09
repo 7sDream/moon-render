@@ -10,7 +10,7 @@ A small code to render characters using moon emoji in shell.
 
 "7sDream" in [Fura Code](merge to one image using imagemagick):
 
-![](https://rikka.7sdre.am/files/140493ef-9484-42f7-9736-5dd6354d04db.png)
+![](https://rikka.7sdre.am/files/a16c38e5-50f5-40ac-9962-0a7607d959b1.png)
 
 ## Usage
 
