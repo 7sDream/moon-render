@@ -4,6 +4,12 @@ A small code to render characters using moon emoji in shell.
 
 ## Example
 
+Github Logos in [Font Awesome]:
+
+![](https://rikka.7sdre.am/files/22a7b2b3-7b52-4834-a3cd-9eaae67f51f2.png)
+
+![](https://rikka.7sdre.am/files/0a8414a4-59e6-433c-8f54-e1c60d4dafd2.png)
+
 "柒" in [TW-Kai] font:
 
 <img src="https://rikka.7sdre.am/files/4f660184-e5e7-4b4c-a037-8c1d656dfe86.png" height="480" width="auto">
@@ -49,6 +55,7 @@ $ gcc -I/usr/local/include/freetype2 -L/usr/local/lib -lfreetype main.c -o moon-
 
 GPLv3.
 
+[Font Awesome]: https://fontawesome.com/
 [TW-Kai]: https://data.gov.tw/dataset/5961
 [Fura Code]: https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/FiraCode
 [edit-config]: https://github.com/7sDream/moon-render/blob/master/main.c#L23-L28

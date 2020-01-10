@@ -20,11 +20,11 @@
 #include <ft2build.h>
 #include FT_FREETYPE_H
 
-static const char* CHARS[] = {"7", "s", "D", "r", "e", "a", "m"};
-static const FT_ULong SCALAR_VALUES[] = {0x0037, 0x0073, 0x0044, 0x0072, 0x0065, 0x0061, 0x006D};
+static const char* CHARS[] = {"", ""};
+static const FT_ULong SCALAR_VALUES[] = {0xf113, 0xf09b};
 
-static const char FONT_NAME[] = "Fura Code";
-static const char FONT_PATH[] = "/Users/7sdream/Library/Fonts/Fura Code Retina Nerd Font Complete Mono.otf";
+static const char FONT_NAME[] = "Font Awesome";
+static const char FONT_PATH[] = "/Users/7sdream/Library/Fonts/Font Awesome 5 Brands-Regular-400.otf";
 static const FT_UInt CHAR_PIXEL_HEIGHT = 24;
 
 static_assert(
@@ -45,13 +45,9 @@ char* showGray(unsigned char left, unsigned char self, unsigned char right) {
         return GrayChars[CharPairCount - 1][0];
     }
 
-    if (left != 0 && right != 0) {
-        return GrayChars[0][0];
-    }
-
     size_t index = (size_t)((255 - self) * Multiplier);
 
-    if (left == 0) {
+    if (left < right) {
         return GrayChars[index][1];
     } else {
         return GrayChars[index][0];
